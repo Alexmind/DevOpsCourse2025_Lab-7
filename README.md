@@ -1,8 +1,8 @@
-# DevOpsCourse2025_Lab-5
+# DevOpsCourse2025_Lab-7
 Laboratory #6
 
 ## 📜 Description
-Ansible roles + CI
+Docker + nginx + openssl
 
 ## 📃 Table of content
 - [Technologies](#-Technologies)
@@ -12,25 +12,28 @@ Ansible roles + CI
 - [Screenshots](#-Screenshots)
 
 ## 🔧 Technologies
-- ansible
-- yaml
-- jinja2
-- GitHub Actions
+- Docker
+- nginx
+- openssl
 
 ## ⚙  Dependencies
-- ansible
+- Docker
 
 ## 🚀 Usage
-``` ansible-playbook <PLAYBOOK> -i <INVENTORY> ```
+``` docker build -t <NAME> . ```
 
 ## 📋 Examples
-``` ansible-playbook playbook.yml -i inventory.yml ```
+``` docker build -t nginx5 . ```
 
 ## 🖼 Screenshots
 <div align="center">
 
-| ![image](https://github.com/user-attachments/assets/4067be18-24d6-449e-b485-d1c1889ef191) | 
+| ![image](https://github.com/user-attachments/assets/9d0156ca-2ecf-454d-9a36-72815bbae045) |
 |:-:|
-| *Ansible output* |
+| *Docker ps* |
+
+| ![image](https://github.com/user-attachments/assets/b219c10c-32d7-4cde-abc1-94c7367a5b81) | 
+|:-:|
+| *Certificate is valid* |
 
 </div>
