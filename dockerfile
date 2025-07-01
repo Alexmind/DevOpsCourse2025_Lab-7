@@ -1,0 +1,12 @@
+FROM nginx
+
+ADD ./index.html /var/www/html/index.html
+ADD ./nginx.conf /etc/nginx/conf.d/default.conf
+ADD ./ssl/* /etc/nginx/ssl/
+
+RUN /usr/sbin/nginx -t
+
+STOPSIGNAL SIGTERM
+
+CMD ["nginx", "-g", "daemon off;"]
+
