@@ -1,5 +1,5 @@
 # DevOpsCourse2025_Lab-7
-Laboratory #6
+Laboratory #7
 
 ## 📜 Description
 Docker + nginx + openssl
